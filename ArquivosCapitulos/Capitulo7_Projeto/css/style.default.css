@@ -1,0 +1,221 @@
+.font-padrao { font-family: 'simplificasimplifica'; }
+
+.tamanho14 {font-size:14px;}
+.tamanho16 {font-size:16px;}
+.tamanho18 {font-size:18px;}
+.tamanho20 {font-size:20px;}
+
+.cor-branca {color:#FFFFFF !important;}
+
+.container-topo {
+	background:#f0eded;
+	width:100%;
+	height:104px;
+	float:left;
+}
+
+.logo-pizzeria {
+	float:left;
+	margin:5px 30px 0 0;
+}
+
+.fone-delivery h3 {
+	font-size:36px;
+	color:#4ba628;
+	font-family:Georgia, Constantia, "Lucida Bright", "DejaVu Serif", serif;
+	float:left;
+	margin:30px 30px;
+}
+
+.peca-online {
+	float:left;
+	margin:30px 30px;
+}
+
+@media (max-width: 480px) {
+
+.container-topo {
+	background:#f0eded;
+	width:100%;
+	height:auto;
+	float:left;
+}
+
+.logo-pizzeria {
+	width:100%;
+	text-align:center;
+	margin:10px 0;
+}
+
+.fone-delivery h3 {
+	font-size:26px !important;
+	color:#4ba628;
+	font-family:Georgia, Constantia, "Lucida Bright", "DejaVu Serif", serif;
+	text-align:center;
+	margin:10px 0 -10px 0 !important;
+	padding:0;
+}
+
+.peca-online {
+	width:100%;
+	text-align:center;
+	margin:30px 0 10px 0;
+}
+
+}
+
+.menu-container {
+	background:#f04e23;
+	width:100%;
+	height:56px;
+	float:left;
+	border-bottom:6px #ba3b1a solid;
+	font-family:'simplificasimplifica';
+	font-size:24px;
+}
+
+.navbar-nav li.active a {
+	background:#ba3b1a !important;
+	color:#FFFFFF !important;
+}
+
+.navbar-collapse .navbar-nav li a:hover {
+	background:#ba3b1a !important;
+	color:#FFFFFF !important;
+}
+
+#bs-example-navbar-collapse-1 {
+	width:100%;
+	padding-left:140px;
+	position:absolute;
+	z-index:9999;
+}
+
+@media (max-width: 480px) {
+#bs-example-navbar-collapse-1 {
+	background:#ba3b1a;
+	padding-left:0;
+	text-indent:20px;
+
+}
+
+#bs-example-navbar-collapse-1 li {
+	border-bottom:1px solid #ffffff;
+}
+}
+
+
+.container-slider {
+	width:100%;
+	height:420px;
+	float:left;
+	background:url(../imgs/img-banner-slider.jpg);
+	background-position:center;
+}
+
+.container-corpo1 {
+	width:100%;
+	height:450px;
+	float:left;
+	background:#252525;
+}
+
+@media (max-width: 480px) {
+.container-corpo1 {
+	width:100%;
+	height:auto !important;
+	background:#252525;
+}	
+}
+
+.mais-vendidas1 {
+	margin:40px 0 30px 0;
+}
+
+.container-corpo2 {
+	width:100%;
+	height:350px;
+	float:left;
+	background:#ebebeb;
+}
+
+.bloco-institucional, .imagem-institucional {
+	margin-top:20px;
+}
+
+.bloco-institucional h1 {
+	font-weight:bold;
+	color:#4ba628;	
+}
+
+.bloco-institucional h2 a {
+	color:#FFFFFF;
+	font-weight:bold;
+	background:#4ba628	;
+	width:auto;
+	padding:10px;
+	text-decoration:none;
+	border-radius:6px;
+}
+
+.bloco-institucional h2 a:hover {
+	background:#36771d;	
+}
+
+.container-rodape {
+	width:100%;
+	height:330px;
+	background:#cccccc;
+	float:left;
+}
+
+.container-rodape h1 {
+	font-weight:bold;
+	color:#4ba628;	
+}
+
+.loop-depoimentos {
+	width:300px;
+	height:auto;
+	float:left;
+}
+
+.loop-depoimentos img {
+	float:left;
+	margin:0 20px 20px 0;	
+}
+
+.loop-posts {
+	width:300px;
+	float:left;
+	margin-bottom:10px;	
+}
+
+.loop-posts p {
+	line-height:20px;
+}
+
+.data-posts {
+   background:#4ba628;
+   color:#FFFFFF !important;
+   width:60px;
+   height:60px;
+   border-radius:6px;
+   float:left;
+   text-align:center;
+   padding:10px;
+   margin:0 15px 0 0;
+}
+
+.rodape-fim {
+	background:#ba3b1a;
+	width:100%;
+	height:50px;
+	float:left;
+	color:#ffffff;
+	text-align:center;
+}
+
+.rodape-fim p {
+	line-height:50px;
+}
